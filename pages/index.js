@@ -7,10 +7,10 @@ import About from "../components/About/About";
 import "./index.css";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
+import Repos from "../components/Repos/Repos";
 
 class Index extends Component {
   state = {
-    mounted: false,
     navHeight: ""
   };
 
@@ -42,6 +42,7 @@ class Index extends Component {
         <Landing navHeight={this.state.navHeight} />
         <About />
         <Projects />
+        <Repos />
       </Fragment>
     );
 
@@ -56,7 +57,7 @@ class Index extends Component {
           />
         </Head>
         <Navbar setNavHeight={this.setNavHeight} />
-        {this.state.mounted ? screen : null}
+        {screen}
         <Footer />
       </Fragment>
     );

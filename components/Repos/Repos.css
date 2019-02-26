@@ -1,0 +1,22 @@
+#repos .repo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.see-more {
+  justify-self: end;
+  grid-column: 1 / span 3;
+}
+
+@media (max-width: 768px) {
+  #repos .repo-grid {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+
+  .see-more {
+    justify-self: end;
+    grid-column: 1;
+  }
+}
