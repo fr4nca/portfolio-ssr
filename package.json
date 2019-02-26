@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-next",
+  "version": "1.0.0",
+  "description": "Portfolio website created with NextJS",
+  "main": "index.js",
+  "author": "Victor França",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scroll": "^1.7.11"
+  },
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export"
+  }
+}
