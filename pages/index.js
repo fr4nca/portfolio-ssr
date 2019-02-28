@@ -37,7 +37,7 @@ class Index extends Component {
   };
 
   render() {
-    let screen = (
+    let content = (
       <Fragment>
         <Landing navHeight={this.state.navHeight} />
         <About />
@@ -61,7 +61,7 @@ class Index extends Component {
           />
         </Head>
         <Navbar setNavHeight={this.setNavHeight} />
-        {screen}
+        {content}
         <Footer />
       </Fragment>
     );

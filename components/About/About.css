@@ -1,5 +1,6 @@
 #about .section {
   margin-bottom: 3rem;
+  padding: 2rem;
 }
 
 #about .section .me {
@@ -16,6 +17,15 @@
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
+}
+
+#about .section #skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about .section #skills h2 {
+  margin-bottom: 0.6rem;
 }
 
 #about .section .skills-list #frameworks {
@@ -36,4 +46,15 @@
 #about .section .skills-list i {
   display: block;
   margin: 0.5rem auto;
+}
+
+@media (max-width: 768px) {
+  #about .section #skills {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #about .section #skills ul {
+    margin-top: 1rem;
+  }
 }
