@@ -1,5 +1,4 @@
 #about .section {
-  margin-bottom: 3rem;
   padding: 2rem;
 }
 
@@ -8,7 +7,6 @@
   padding: 0 1.5rem;
   margin: 0.8rem 0;
   line-height: 1.4;
-  text-align: justify;
 }
 
 #about .section .skills-list {
@@ -22,6 +20,7 @@
 #about .section #skills {
   display: flex;
   justify-content: space-evenly;
+  margin: 1rem 0;
 }
 
 #about .section #skills h2 {
@@ -49,6 +48,9 @@
 }
 
 @media (max-width: 768px) {
+  #about .section {
+    padding: 0rem;
+  }
   #about .section #skills {
     flex-direction: column;
     justify-content: center;
