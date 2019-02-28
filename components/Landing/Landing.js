@@ -20,7 +20,8 @@ export default class Landing extends Component {
       <div
         id="landing"
         style={{
-          background: `url("../static/img/blake-connally-373084-unsplash.jpg") no-repeat center center/cover`
+          background: `url("../static/img/blake-connally-373084-unsplash.jpg") no-repeat center center/cover`,
+          height: this.state.innerHeight
         }}
       >
         <div className="landing-content">
