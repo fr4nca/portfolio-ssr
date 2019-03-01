@@ -1,5 +1,5 @@
 #about .section {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 #about .section .me {
@@ -20,7 +20,7 @@
 #about .section #skills {
   display: flex;
   justify-content: space-evenly;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 #about .section #skills h2 {
@@ -28,7 +28,7 @@
 }
 
 #about .section .skills-list #frameworks {
-  margin-bottom: 3rem;
+  margin: 2rem;
 }
 
 #about .section .skills-list #frameworks,
