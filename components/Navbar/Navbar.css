@@ -1,7 +1,6 @@
 /* Navbar */
 #navbar {
   width: 100%;
-  height: 55px;
   display: flex;
   position: fixed;
   top: 0px;
