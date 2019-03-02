@@ -1,5 +1,32 @@
-#repos .repo-grid .repo-item {
-  padding: 1.5rem;
-  border-radius: 5px;
+.repo-item {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
   overflow: hidden;
+}
+
+.repo-header {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: var(--color-dark);
+}
+
+.repo-content {
+  padding: 1rem;
+  width: 100%;
+}
+
+.repo-content .attribute {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.repo-content .key {
+  font-weight: bold;
+}
+
+.repo-content .btn {
+  margin-top: 1rem;
 }

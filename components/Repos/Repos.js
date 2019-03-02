@@ -43,7 +43,7 @@ export default class Repos extends Component {
           const { edges } = data.viewer.repositories;
 
           return (
-            <div id="repos" className="bg-light p-2">
+            <div id="repos" className="p-2">
               <h2 className="section-heading">Meus últimos repositórios</h2>
               <div className="repo-grid">
                 {edges.map(({ node: repo }) => (
