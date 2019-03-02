@@ -59,6 +59,7 @@ class Index extends Component {
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
             crossOrigin="anonymous"
           />
+          <title>Victor Almeida França</title>
         </Head>
         <Navbar setNavHeight={this.setNavHeight} />
         {content}
