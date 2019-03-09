@@ -25,12 +25,6 @@ export default function RepoItem({
             <span className="key">Language:</span> {primaryLanguage.name}
           </span>
         ) : null}
-        <span className="attribute">
-          <span className="key"> Created at:</span> {createdAt}
-        </span>
-        <span className="attribute">
-          <span className="key"> Last updated:</span> {updatedAt}
-        </span>
         <a className="btn" href={url}>
           Github
         </a>
