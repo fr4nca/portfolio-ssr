@@ -72,7 +72,7 @@ class Navbar extends Component {
                   Me
                 </ScrollLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
                   to="projects"
@@ -84,7 +84,7 @@ class Navbar extends Component {
                 >
                   Projects
                 </ScrollLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <ScrollLink
                   activeClass="active"

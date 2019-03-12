@@ -1,0 +1,29 @@
+#contact .section form {
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+#contact .section .form-group {
+  margin-bottom: 0.6rem;
+}
+
+#contact .section .form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+#contact .section .form-group input,
+#contact .section .form-group textarea {
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+#contact .section form button {
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+}

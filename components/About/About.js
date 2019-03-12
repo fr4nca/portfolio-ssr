@@ -30,6 +30,7 @@ export default class About extends Component {
               <li>MySQL</li>
               <li>Postgres</li>
               <li>MongoDB</li>
+              <li>Firebase</li>
             </ul>
             <ul id="security-skills">
               <h2>Security</h2>

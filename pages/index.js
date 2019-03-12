@@ -8,6 +8,7 @@ import "./index.css";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Repos from "../components/Repos/Repos";
+import Contact from "../components/Contact/Contact";
 
 class Index extends Component {
   state = {
@@ -41,8 +42,9 @@ class Index extends Component {
       <Fragment>
         <Landing navHeight={this.state.navHeight} />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         <Repos />
+        <Contact />
       </Fragment>
     );
 
