@@ -20,7 +20,7 @@ export default class Landing extends Component {
       <div
         id="landing"
         style={{
-          background: `url(../static/img/landing.svg) no-repeat center center/cover`,
+          background: `url(../static/img/landing.jpg) no-repeat center center/cover`,
           height: this.state.innerHeight
         }}
       >
