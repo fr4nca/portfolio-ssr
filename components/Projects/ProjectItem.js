@@ -8,10 +8,10 @@ export default function ProjectItem({ project }) {
       <div className="project-content">
         <img className="project-img" src={project.foto} />
         <div className="links">
-          <a href={project.github} className="btn btn-dark">
+          <a target="_blank" href={project.github} className="btn btn-dark">
             Code
           </a>
-          <a href={project.live} className="btn btn-dark">
+          <a target="_blank" href={project.live} className="btn btn-dark">
             Live
           </a>
         </div>
