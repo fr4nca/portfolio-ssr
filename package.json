@@ -20,8 +20,8 @@
     "react-scroll": "^1.7.11"
   },
   "scripts": {
-    "dev": "next",
-    "start": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "node server.js",
     "build": "next build",
     "export": "next export"
   }

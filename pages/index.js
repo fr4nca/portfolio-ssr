@@ -1,12 +1,12 @@
-import React, { Fragment, Component } from "react";
+import React, { Component } from "react";
 import Router from "next/router";
+import "./index.css";
 
 import Navbar from "../components/Navbar/Navbar";
 import Head from "next/head";
 import Landing from "../components/Landing/Landing";
 import Skills from "../components/Skills/Skills";
 
-import "./index.css";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Repos from "../components/Repos/Repos";

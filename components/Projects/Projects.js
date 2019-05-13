@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ProjectItem from "./ProjectItem";
 import "./Projects.css";
+
+import ProjectItem from "./ProjectItem";
 import gameduc from "../../static/img/gameduc.png";
 import prototipo from "../../static/img/prototipo.png";
 import naoseesqueca from "../../static/img/naoseesqueca.png";
@@ -9,37 +10,25 @@ import elasporelas from "../../static/img/elasporelas.png";
 const projetos = [
   {
     nome: "Gameduc",
-    foto: {
-      foto: gameduc,
-      w: "824",
-      h: "375"
-    },
+    foto: gameduc,
     github: "https://github.com/fr4nca/gameduc",
     live: "http://gameeduc.com.br"
   },
   {
     nome: "Protótipo Gemeduc",
-    foto: {
-      foto: prototipo,
-      w: "824",
-      h: "367"
-    },
+    foto: prototipo,
     github: "https://github.com/fr4nca/prototipoGameficacaoCEUB",
     live: "https://ecstatic-liskov-084d66.netlify.com/"
   },
   {
     nome: "Elas por elas",
-    foto: {
-      foto: elasporelas,
-      w: "824",
-      h: "347"
-    },
+    foto: elasporelas,
     github: "https://github.com/fr4nca/ElasPorElas",
     live: "https://elasporelas.herokuapp.com/"
   },
   {
     nome: "Não se esqueça",
-    foto: { foto: naoseesqueca, w: "824", h: "342" },
+    foto: naoseesqueca,
     github: "https://github.com/fr4nca/projetoWeb",
     live: "https://naoseesqueca.herokuapp.com/"
   }

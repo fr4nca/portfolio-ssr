@@ -70,7 +70,7 @@ class Navbar extends Component {
                   to="myskills"
                   spy={true}
                   smooth={true}
-                  offset={-this.state.navHeight}
+                  offset={-this.state.navHeight + 5}
                   duration={750}
                   onClick={this.handleClick}
                 >
@@ -83,7 +83,7 @@ class Navbar extends Component {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={-this.state.navHeight}
+                  offset={-this.state.navHeight + 5}
                   duration={750}
                   onClick={this.handleClick}
                 >
@@ -96,7 +96,7 @@ class Navbar extends Component {
                   to="repos"
                   spy={true}
                   smooth={true}
-                  offset={-this.state.navHeight}
+                  offset={-this.state.navHeight + 5}
                   duration={750}
                   onClick={this.handleClick}
                 >

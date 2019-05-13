@@ -6,12 +6,7 @@ export default function ProjectItem({ project }) {
     <div className="project-item bg-light">
       <div className="project-header">{project.nome}</div>
       <div className="project-content">
-        <img
-          className="project-img"
-          src={project.foto.foto}
-          width={project.foto.w}
-          height={project.foto.h}
-        />
+        <img className="project-img" src={project.foto} />
         <div className="links">
           <a href={project.github} className="btn btn-dark">
             Github

@@ -16,21 +16,15 @@
   width: 100%;
 }
 
+.project-content .project-img {
+  width: 100%;
+}
+
 .project-content .links {
   padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.project-content .attribute {
-  display: block;
-  font-size: 1.1rem;
-  line-height: 1.3;
-}
-
-.project-content .key {
-  font-weight: bold;
 }
 
 .project-content .btn {
