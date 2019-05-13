@@ -9,7 +9,7 @@ export default function ProjectItem({ project }) {
         <img className="project-img" src={project.foto} />
         <div className="links">
           <a href={project.github} className="btn btn-dark">
-            Github
+            Code
           </a>
           <a href={project.live} className="btn btn-dark">
             Live

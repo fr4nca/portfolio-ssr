@@ -24,7 +24,9 @@ class NavbarAbout extends Component {
       <div>
         <nav id="navbarabout" ref={this.navabout}>
           <h1 className="logo">
-            <Link href="/">Victor França</Link>
+            <Link href="/">
+              <a>Victor França</a>
+            </Link>
           </h1>
           <i id="menu-icon" className="fas fa-bars fa-2x" />
           <input
@@ -36,7 +38,9 @@ class NavbarAbout extends Component {
           <div className="menu-wrapper">
             <ul className="nav">
               <li className="nav-item">
-                <Link href="/">Home</Link>
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
               </li>
             </ul>
           </div>

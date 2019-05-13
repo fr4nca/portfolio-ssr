@@ -56,7 +56,7 @@ export default class Landing extends Component {
               spy={true}
               smooth={true}
               duration={750}
-              offset={-this.props.navHeight}
+              offset={-this.props.navHeight + 5}
             >
               <span className="read">Leia mais</span>
               <i className="fas fa-angle-double-down fa-3x" />

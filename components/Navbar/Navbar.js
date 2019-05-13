@@ -61,7 +61,9 @@ class Navbar extends Component {
           <div className="menu-wrapper">
             <ul className="nav">
               <li className="nav-item">
-                <Link href="/about">About me</Link>
+                <Link href="/about">
+                  <a>About me</a>
+                </Link>
               </li>
 
               <li className="nav-item">

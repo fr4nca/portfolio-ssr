@@ -83,6 +83,15 @@ export default class Skills extends Component {
               </li>
             </div>
           </ul>
+          <div className="resume">
+            <a
+              className="btn btn-dark download-resume"
+              target="_blank"
+              href="../../static/pdf/CURRICULO_Victor.pdf"
+            >
+              Currículo / Resumè
+            </a>
+          </div>
         </div>
       </div>
     );

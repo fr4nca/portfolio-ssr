@@ -15,7 +15,7 @@ const projetos = [
     live: "http://gameeduc.com.br"
   },
   {
-    nome: "Protótipo Gemeduc",
+    nome: "Protótipo Gameduc",
     foto: prototipo,
     github: "https://github.com/fr4nca/prototipoGameficacaoCEUB",
     live: "https://ecstatic-liskov-084d66.netlify.com/"
