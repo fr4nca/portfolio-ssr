@@ -1,65 +1,10 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 import "./Footer.css";
 
-export default function Footer(props) {
+export default function Footer() {
   return (
     <footer>
-      {props.where === "home" ? (
-        <div id="footer" className="bg-dark py-1">
-          <div className="container">
-            <ul className="nav">
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="skills"
-                  spy={true}
-                  smooth={true}
-                  offset={-60}
-                  duration={500}
-                >
-                  Skills
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-60}
-                  duration={500}
-                >
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="repos"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Repos
-                </Link>
-              </li>
-              {/* <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li> */}
-            </ul>
-          </div>
-        </div>
-      ) : null}
       <div id="main-footer" className="bg-darker text-center py-1">
         <div className="container">
           <ul className="links">

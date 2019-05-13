@@ -11,8 +11,8 @@ const projetos = [
     nome: "Gameduc",
     foto: {
       foto: gameduc,
-      w: "600",
-      h: "273"
+      w: "824",
+      h: "375"
     },
     github: "https://github.com/fr4nca/gameduc",
     live: "http://gameeduc.com.br"
@@ -21,8 +21,8 @@ const projetos = [
     nome: "Protótipo Gemeduc",
     foto: {
       foto: prototipo,
-      w: "600",
-      h: "267"
+      w: "824",
+      h: "367"
     },
     github: "https://github.com/fr4nca/prototipoGameficacaoCEUB",
     live: "https://ecstatic-liskov-084d66.netlify.com/"
@@ -31,15 +31,15 @@ const projetos = [
     nome: "Elas por elas",
     foto: {
       foto: elasporelas,
-      w: "600",
-      h: "253"
+      w: "824",
+      h: "347"
     },
     github: "https://github.com/fr4nca/ElasPorElas",
     live: "https://elasporelas.herokuapp.com/"
   },
   {
     nome: "Não se esqueça",
-    foto: { foto: naoseesqueca, w: "600", h: "249" },
+    foto: { foto: naoseesqueca, w: "824", h: "342" },
     github: "https://github.com/fr4nca/projetoWeb",
     live: "https://naoseesqueca.herokuapp.com/"
   }

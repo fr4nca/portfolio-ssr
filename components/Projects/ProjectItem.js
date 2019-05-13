@@ -9,7 +9,6 @@ export default function ProjectItem({ project }) {
         <img
           className="project-img"
           src={project.foto.foto}
-          alt=""
           width={project.foto.w}
           height={project.foto.h}
         />

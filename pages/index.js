@@ -65,7 +65,7 @@ class Index extends Component {
         </Head>
         <Navbar setNavHeight={this.setNavHeight} />
         {content}
-        <Footer where="home" />
+        <Footer />
       </>
     );
   }
