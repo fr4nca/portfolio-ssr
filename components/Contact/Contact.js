@@ -11,7 +11,6 @@ export default class Contact extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    console.log(this.state);
   };
 
   handleChange = e => {

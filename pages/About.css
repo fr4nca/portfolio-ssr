@@ -1,0 +1,20 @@
+#about {
+  margin-top: 1rem;
+}
+
+#about .section {
+  padding: 1rem;
+}
+
+#about .section .me {
+  font-size: 1.3rem;
+  padding: 0 1.5rem;
+  margin: 0.8rem 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  #about .section {
+    padding: 0rem;
+  }
+}

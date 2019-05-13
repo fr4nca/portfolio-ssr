@@ -1,8 +1,10 @@
 import React, { Fragment, Component } from "react";
+import Router from "next/router";
+
 import Navbar from "../components/Navbar/Navbar";
 import Head from "next/head";
 import Landing from "../components/Landing/Landing";
-import About from "../components/About/About";
+import Skills from "../components/Skills/Skills";
 
 import "./index.css";
 import Projects from "../components/Projects/Projects";
@@ -16,18 +18,16 @@ class Index extends Component {
   };
 
   componentDidMount() {
-    this.setState({
-      mounted: true
-    });
-
+    document.querySelector("#navbar").style.background = "rgba(31, 31, 31, 0)";
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 150) {
-        document.querySelector("#navbar").style.background =
-          "rgba(31, 31, 31, 1)";
-      } else {
-        document.querySelector("#navbar").style.background =
-          "rgba(31, 31, 31, 0)";
-      }
+      if (Router.pathname === "/")
+        if (window.scrollY > 150) {
+          document.querySelector("#navbar").style.background =
+            "rgba(31, 31, 31, 1)";
+        } else {
+          document.querySelector("#navbar").style.background =
+            "rgba(31, 31, 31, 0)";
+        }
     });
   }
 
@@ -39,17 +39,17 @@ class Index extends Component {
 
   render() {
     let content = (
-      <Fragment>
+      <>
         <Landing navHeight={this.state.navHeight} />
-        <About />
-        {/* <Projects /> */}
+        <Skills />
+        <Projects />
         <Repos />
-        <Contact />
-      </Fragment>
+        {/* <Contact /> */}
+      </>
     );
 
     return (
-      <Fragment>
+      <>
         <Head>
           <meta
             name="viewport"
@@ -65,8 +65,8 @@ class Index extends Component {
         </Head>
         <Navbar setNavHeight={this.setNavHeight} />
         {content}
-        <Footer />
-      </Fragment>
+        <Footer where="home" />
+      </>
     );
   }
 }

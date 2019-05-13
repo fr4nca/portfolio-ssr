@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -60,19 +61,23 @@ class Navbar extends Component {
           <div className="menu-wrapper">
             <ul className="nav">
               <li className="nav-item">
+                <Link href="/about">About me</Link>
+              </li>
+
+              <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
-                  to="about"
+                  to="myskills"
                   spy={true}
                   smooth={true}
                   offset={-this.state.navHeight}
                   duration={750}
                   onClick={this.handleClick}
                 >
-                  Me
+                  Skills
                 </ScrollLink>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
                   to="projects"
@@ -84,7 +89,7 @@ class Navbar extends Component {
                 >
                   Projects
                 </ScrollLink>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
@@ -98,19 +103,19 @@ class Navbar extends Component {
                   Repos
                 </ScrollLink>
               </li>
-              <li className="nav-item">
-                <ScrollLink
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-this.state.navHeight}
-                  duration={750}
-                  onClick={this.handleClick}
-                >
-                  Contact
-                </ScrollLink>
-              </li>
+              {/* <li className="nav-item">
+                    <ScrollLink
+                      activeClass="active"
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-this.state.navHeight}
+                      duration={750}
+                      onClick={this.handleClick}
+                    >
+                      Contact
+                    </ScrollLink>
+                  </li> */}
             </ul>
           </div>
         </nav>

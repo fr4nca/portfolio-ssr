@@ -1,15 +1,8 @@
-#about .section {
+#myskills .section {
   padding: 1rem;
 }
 
-#about .section .me {
-  font-size: 1.3rem;
-  padding: 0 1.5rem;
-  margin: 0.8rem 0;
-  line-height: 1.4;
-}
-
-#about .section .skills-list {
+#myskills .section .skills-list {
   margin-top: 2rem;
   list-style: none;
   display: flex;
@@ -17,46 +10,43 @@
   font-size: 1.4rem;
 }
 
-#about .section #skills {
+#myskills .section #skills {
   display: flex;
   justify-content: space-evenly;
   margin: 2rem 0;
 }
 
-#about .section #skills h2 {
+#myskills .section #skills h2 {
   margin-bottom: 0.6rem;
 }
 
-#about .section .skills-list {
+#myskills .section .skills-list {
   margin: 2rem;
 }
 
-#about .section .skills-list #frameworks,
-#about .section .skills-list #technologies {
+#myskills .section .skills-list #frameworks,
+#myskills .section .skills-list #technologies {
   display: flex;
   justify-content: space-evenly;
 }
 
-#about .section .skills-list li {
+#myskills .section .skills-list li {
   display: flex;
   flex-direction: column;
 }
 
-#about .section .skills-list i {
+#myskills .section .skills-list i {
   display: block;
   margin: 0.5rem auto;
 }
 
 @media (max-width: 768px) {
-  #about .section {
-    padding: 0rem;
-  }
-  #about .section #skills {
+  #myskills .section #skills {
     flex-direction: column;
     justify-content: center;
   }
 
-  #about .section #skills ul {
+  #myskills .section #skills ul {
     margin-top: 1rem;
   }
 }

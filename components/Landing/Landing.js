@@ -20,7 +20,7 @@ export default class Landing extends Component {
       <div
         id="landing"
         style={{
-          background: `url("../static/img/blake-connally-373084-unsplash.jpg") no-repeat center center/cover`,
+          background: `url(../static/img/landing.svg) no-repeat center center/cover`,
           height: this.state.innerHeight
         }}
       >
@@ -42,15 +42,6 @@ export default class Landing extends Component {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="http://gitlab.com/fr4nca"
-                >
-                  <i className="fab fa-gitlab fa-3x" />
-                </a>
-              </li>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
                   href="http://linkedin.com/fr4nca"
                 >
                   <i className="fab fa-linkedin fa-3x" />
@@ -61,7 +52,7 @@ export default class Landing extends Component {
           <div className="arrow">
             <ScrollLink
               activeClass="active"
-              to="about"
+              to="myskills"
               spy={true}
               smooth={true}
               duration={750}
