@@ -68,10 +68,6 @@ export default class About extends Component {
               excited to gradualy climb my way into being a successful
               professional doing what I love the most.
             </p>
-            <p className="me">
-              Below you can see my stack, my live apps and my latest
-              repositories.
-            </p>
             <hr />
           </div>
         </div>

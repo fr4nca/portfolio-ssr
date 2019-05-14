@@ -42,7 +42,7 @@ export default class Landing extends Component {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="http://linkedin.com/fr4nca"
+                  href="https://www.linkedin.com/in/victor-almeida-franca/"
                 >
                   <i className="fab fa-linkedin fa-3x" />
                 </a>

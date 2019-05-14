@@ -61,12 +61,6 @@ class Navbar extends Component {
           <div className="menu-wrapper">
             <ul className="nav">
               <li className="nav-item">
-                <Link href="/about">
-                  <a>About me</a>
-                </Link>
-              </li>
-
-              <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
                   to="myskills"
@@ -104,6 +98,11 @@ class Navbar extends Component {
                 >
                   Repos
                 </ScrollLink>
+              </li>
+              <li className="nav-item">
+                <Link href="/about">
+                  <a>About me</a>
+                </Link>
               </li>
               {/* <li className="nav-item">
                     <ScrollLink
