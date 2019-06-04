@@ -24,10 +24,9 @@
   margin: 2rem;
 }
 
-#myskills .section .skills-list #frameworks,
-#myskills .section .skills-list #technologies {
+#myskills .section .skills-list #frameworks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #myskills .section .skills-list li {

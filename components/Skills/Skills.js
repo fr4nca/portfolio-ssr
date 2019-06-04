@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './Skills.css'
+import React, { Component } from 'react';
+import './Skills.css';
 
 export default class Skills extends Component {
   render() {
@@ -12,6 +12,7 @@ export default class Skills extends Component {
             <ul id='frotend-skills'>
               <h2>Front-end</h2>
               <li>React/Vue/Angular front-end development</li>
+              <li>React Native for mobile development</li>
               <li>Vanilla HTML5, CSS3 and JavaScript</li>
               <li>CSS frameworks like Bootstrap, Bulma and Materialize</li>
               <li>Server-side and client-side rendering</li>
@@ -20,7 +21,8 @@ export default class Skills extends Component {
             <ul id='backend-skills'>
               <h2>Back-end</h2>
               <li>Express</li>
-              <li>WSGI</li>
+              <li>Django</li>
+              <li>Flask</li>
               <li>Nginx</li>
               <li>Websockets</li>
               <li>RESTfull APIs</li>
@@ -60,11 +62,9 @@ export default class Skills extends Component {
                 React
               </li>
               <li>
-                <i className='fas fa-code fa-2x' />
-                Back-end
+                <i className='fab fa-python fa-2x' />
+                Python
               </li>
-            </div>
-            <div id='technologies'>
               <li>
                 <i className='fab fa-html5 fa-2x' />
                 HTML5
@@ -90,6 +90,6 @@ export default class Skills extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

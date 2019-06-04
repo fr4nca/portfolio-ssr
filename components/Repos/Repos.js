@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { Query } from "react-apollo";
-import gql from "graphql-tag";
-import RepoItem from "./RepoItem";
+import { Query } from 'react-apollo';
+import gql from 'graphql-tag';
+import RepoItem from './RepoItem';
 
-import "./Repos.css";
+import './Repos.css';
 
 const query = gql`
   {
@@ -43,20 +43,20 @@ export default class Repos extends Component {
           const { edges } = data.viewer.repositories;
 
           return (
-            <div id="repos" className="p-2">
-              <h2 className="section-heading">Meus últimos repositórios</h2>
-              <div className="repo-grid">
+            <div id='repos' className='p-2'>
+              <h2 className='section-heading'>Latest repos</h2>
+              <div className='repo-grid'>
                 {edges.map(({ node: repo }) => (
                   <RepoItem key={repo.id} {...repo} />
                 ))}
-                <span className="see-more">
+                <span className='see-more'>
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "black" }}
-                    href="https://github.com/fr4nca?tab=repositories"
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    style={{ color: 'black' }}
+                    href='https://github.com/fr4nca?tab=repositories'
                   >
-                    Veja mais <i className="fas fa-external-link-alt" />
+                    See more <i className='fas fa-external-link-alt' />
                   </a>
                 </span>
               </div>
