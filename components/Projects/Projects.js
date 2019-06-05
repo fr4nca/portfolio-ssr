@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import './Projects.css'
+import React, { Component } from 'react';
+import './Projects.css';
 
-import ProjectItem from './ProjectItem'
-import gameduc from '../../static/img/gameduc.png'
-import prototipo from '../../static/img/prototipo.png'
-import naoseesqueca from '../../static/img/naoseesqueca.png'
-import postsocial from '../../static/img/postsocial.png'
+import ProjectItem from './ProjectItem';
+import gameduc from '../../static/img/gameduc.png';
+import prototipo from '../../static/img/prototipo.png';
+import naoseesqueca from '../../static/img/naoseesqueca.png';
+import postsocial from '../../static/img/postsocial.png';
 
 const projetos = [
   {
@@ -42,7 +42,7 @@ const projetos = [
     nome: 'Post Social',
     foto: postsocial,
     github: 'https://github.com/fr4nca/post-social-frontend',
-    live: 'https://sharp-torvalds-825267.netlify.com/',
+    live: 'http://victorfranca.com.br/postsocial',
     desc:
       'A social-media like application where users can login to write posts, edit and delete their posts and read posts from other users',
     stack: {
@@ -51,7 +51,7 @@ const projetos = [
       frontend: 'VueJS with Vuex'
     }
   }
-]
+];
 
 export default class Projects extends Component {
   render() {
@@ -64,6 +64,6 @@ export default class Projects extends Component {
           ))}
         </div>
       </div>
-    )
+    );
   }
 }
