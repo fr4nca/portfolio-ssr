@@ -1,17 +1,17 @@
-import React from 'react';
-import './ProjectItem.css';
+import React from "react";
+import "./ProjectItem.css";
 
 export default function ProjectItem({ project }) {
   return (
-    <div className='project-item bg-light'>
-      <div className='project-header'>{project.nome}</div>
-      <div className='project-content'>
-        <img className='project-img' src={project.foto} />
+    <div className="project-item bg-light">
+      <div className="project-header">{project.nome}</div>
+      <div className="project-content">
+        <img className="project-img" src={project.foto} />
         {project.desc ? (
-          <div className='project-desc'>{project.desc}</div>
+          <div className="project-desc">{project.desc}</div>
         ) : null}
         {project.stack ? (
-          <div className='project-stack'>
+          <div className="project-stack">
             {project.stack.backend ? (
               <p>
                 <strong>Backend: </strong>
@@ -26,13 +26,15 @@ export default function ProjectItem({ project }) {
             ) : null}
           </div>
         ) : null}
-        <div className='links'>
-          <a target='_blank' href={project.github} className='btn btn-dark'>
+        <div className="links">
+          <a target="_blank" href={project.github} className="btn btn-dark">
             Code
           </a>
-          <a target='_blank' href={project.live} className='btn btn-dark'>
-            Live
-          </a>
+          {project.live !== "" ? (
+            <a target="_blank" href={project.live} className="btn btn-dark">
+              Live
+            </a>
+          ) : null}
         </div>
       </div>
     </div>
