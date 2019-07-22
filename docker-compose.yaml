@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   nginx:
     image: nginx:latest
@@ -10,16 +10,9 @@ services:
       - 443:443
     links:
       - portfolio
-      - post_social
   portfolio:
     container_name: portfolio
     restart: always
     image: fr4nca/portfolio
     expose:
-      - '3000'
-  post_social:
-    container_name: post_social
-    restart: always
-    image: fr4nca/post_social
-    expose:
-      - '3001'
+      - "3000"
