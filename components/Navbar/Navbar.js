@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link as ScrollLink } from "react-scroll";
-import Link from "next/link";
-import "./Navbar.css";
+import React, { Component } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import Link from 'next/link';
+import './Navbar.css';
 
 class Navbar extends Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class Navbar extends Component {
   }
 
   state = {
-    navHeight: "",
+    navHeight: '',
     checked: false
   };
 
