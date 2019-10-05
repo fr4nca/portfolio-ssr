@@ -9,7 +9,11 @@ import './Repos.css';
 const query = gql`
   {
     viewer {
-      repositories(first: 9, orderBy: { direction: DESC, field: CREATED_AT }) {
+      repositories(
+        first: 9
+        privacy: PUBLIC
+        orderBy: { direction: DESC, field: CREATED_AT }
+      ) {
         edges {
           node {
             id
@@ -43,20 +47,20 @@ export default class Repos extends Component {
           const { edges } = data.viewer.repositories;
 
           return (
-            <div id='repos' className='p-2'>
-              <h2 className='section-heading'>Latest repos</h2>
-              <div className='repo-grid'>
+            <div id="repos" className="p-2">
+              <h2 className="section-heading">Latest repos</h2>
+              <div className="repo-grid">
                 {edges.map(({ node: repo }) => (
                   <RepoItem key={repo.id} {...repo} />
                 ))}
-                <span className='see-more'>
+                <span className="see-more">
                   <a
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: 'black' }}
-                    href='https://github.com/fr4nca?tab=repositories'
+                    href="https://github.com/fr4nca?tab=repositories"
                   >
-                    See more <i className='fas fa-external-link-alt' />
+                    See more <i className="fas fa-external-link-alt" />
                   </a>
                 </span>
               </div>

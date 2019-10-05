@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link as ScrollLink } from "react-scroll";
+import React, { Component } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
-import "./Landing.css";
+import './Landing.css';
 
 export default class Landing extends Component {
   state = {
@@ -20,7 +20,7 @@ export default class Landing extends Component {
       <div
         id="landing"
         style={{
-          background: `url(../static/img/landing.jpg) no-repeat center center/cover`,
+          background: `url(/static/img/landing.jpg) no-repeat center center/cover`,
           height: this.state.innerHeight
         }}
       >
