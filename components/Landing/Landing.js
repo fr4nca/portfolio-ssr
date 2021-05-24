@@ -28,7 +28,7 @@ export default class Landing extends Component {
           <div className="container">
             <h1 className="l-heading">Victor Almeida França</h1>
             <p className="lead">
-              Web Fullstack and Mobile Developer, programmer
+              Software Engineer, Fullstack web developer
             </p>
             <ul className="links">
               <li>
@@ -63,13 +63,13 @@ export default class Landing extends Component {
           <div className="arrow">
             <ScrollLink
               activeClass="active"
-              to="projects"
+              to="skills"
               spy={true}
               smooth={true}
               duration={750}
               offset={-this.props.navHeight + 5}
             >
-              <span className="read">Projects</span>
+              <span className="read">Skills</span>
               <i className="fas fa-angle-double-down fa-3x" />
             </ScrollLink>
           </div>
