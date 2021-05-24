@@ -1,5 +1,5 @@
 #myskills .section {
-  padding: 1rem;
+  padding: 0;
 }
 
 #myskills .section .skills-list {
@@ -32,7 +32,6 @@
 #myskills .section .skills-list li {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
 }
 
 #myskills .section .skills-list i {
