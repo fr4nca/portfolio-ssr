@@ -76,19 +76,6 @@ class Navbar extends Component {
               <li className="nav-item">
                 <ScrollLink
                   activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-this.state.navHeight + 5}
-                  duration={750}
-                  onClick={this.handleClick}
-                >
-                  Projects
-                </ScrollLink>
-              </li>
-              <li className="nav-item">
-                <ScrollLink
-                  activeClass="active"
                   to="repos"
                   spy={true}
                   smooth={true}
