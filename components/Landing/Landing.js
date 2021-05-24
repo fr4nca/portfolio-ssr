@@ -63,7 +63,7 @@ export default class Landing extends Component {
           <div className="arrow">
             <ScrollLink
               activeClass="active"
-              to="skills"
+              to="myskills"
               spy={true}
               smooth={true}
               duration={750}
