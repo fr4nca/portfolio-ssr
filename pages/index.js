@@ -42,7 +42,7 @@ class Index extends Component {
       <>
         <Landing navHeight={this.state.navHeight} />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
         <Repos />
         {/* <Contact /> */}
       </>

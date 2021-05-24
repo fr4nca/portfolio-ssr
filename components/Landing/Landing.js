@@ -50,6 +50,15 @@ export default class Landing extends Component {
                 </a>
               </li>
             </ul>
+            <div className='resume py-2'>
+              <a
+                className='btn btn-dark download-resume'
+                target='_blank'
+                href='../../static/pdf/CURRICULO_Victor.pdf'
+              >
+                Currículo / Resumè
+              </a>
+            </div>
           </div>
           <div className="arrow">
             <ScrollLink

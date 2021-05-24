@@ -1,5 +1,6 @@
 #myskills .section {
-  padding: 0;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 #myskills .section .skills-list {
