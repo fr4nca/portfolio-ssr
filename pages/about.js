@@ -37,26 +37,8 @@ export default class About extends Component {
             <h2 className="section-heading">About me</h2>
             <hr />
             <p className="me">
-              My name is Victor Almeida França, currently I'm finishing my
-              Computer Science degree and I'm a fullstack WEB developer, mostly
-              focusing on the backend side. My main stack involves a lot of
-              Javascript, creating RESTfull and GraphQL APIs with Express in
-              NodeJS and building frontend applications with React and Angular.
-              I have a little bit of experience with Python in WEB development
-              too, with Django and using Flask to create powerfull APIs.
-            </p>
-            <p className="me">
-              Regarding my technologies skills, I have experience dealing with
-              HTTP requests to create powerfull RESTful and GraphQL APIs,
-              relational and non-relational databases (SQL, MongoDB),
-              authorization and authentication both in back-end and front-end
-              using the latest technologies (JWT, OAuth..), MVC design pattern,
-              server-side and client-side rendering, websockets for real-time
-              apps such as chats and social-media. Regarding deployment I like
-              to use Docker to encapsulate my projects, Google Cloud services
-              and Digital Ocean droplets and clusters to host them, and I'm
-              currently studying Kubernetes and container orchestration to
-              easily scale projects.
+              My name is Victor Almeida França, I have a degree in Computer Science and I'm a fullstack web developer. My main stack involves a lot of
+              NodeJS, Python and GoLang, and frameworks like React and Vue. I like to play a lot with DevOps, server management and Linux environments, Docker and Kubernetes.
             </p>
             <p className="me">
               I love everything that involves technology, it beeing developing
